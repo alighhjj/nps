@@ -56,16 +56,28 @@ NPS 是一款轻量高效的内网穿透代理服务器，支持多种协议（T
 ### 配置下载
 
 # 创建 /opt/nps 目录存放配置文件
+```bash
 mkdir /opt/nps
+```
 
 # 安装wget并且下载配置文件
-apt install -y wget && wget https://img.zeruns.tech/down/conf.zip
+```bash
+apt install -y wget
+wget https://img.zeruns.tech/down/conf.zip
+```
 
 # 解压配置文件到 /opt/nps 目录
+```bash
 unzip conf.zip -d /opt/nps
+```
 
+# 修改参数：
+- 网络端口：443、80、
+- 登陆用户名和密码
+- 网页登陆端口
+```bash
 vim /opt/nps/config/nps.conf
-修改其中的网络端口：443、80、登陆网页
+```
 
 
 ### Docker 部署
