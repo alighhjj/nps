@@ -76,7 +76,7 @@ unzip conf.zip -d /opt/nps
 - 登陆用户名和密码
 - 网页登陆端口
 ```bash
-vim /opt/nps/config/nps.conf
+vim /opt/nps/conf/nps.conf
 ```
 
 
