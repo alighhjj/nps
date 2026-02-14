@@ -97,7 +97,7 @@ docker run -d --restart=always --name nps --net=host -v /opt/nps/conf:/conf -v /
 #### NPC 客户端
 ```bash
 docker pull duan2001/npc
-docker run -d --restart=always --name npc --net=host duan2001/npc -server=14.103.200.10:8024 -vkey=〈唯一密钥〉 -type=tls,tcp -log=off
+docker run -d --restart=always --name npc --net=host duan2001/npc -server=14.1xx.xx.xx:8024 -vkey=〈唯一密钥〉 -type=tls,tcp -log=off
 ```
 
 ### 服务端安装
